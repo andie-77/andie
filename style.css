@@ -1,0 +1,193 @@
+
+/* 全站基本設定 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 網頁背景 */
+body {
+    font-family: 'Noto Sans TC', sans-serif;
+    background: #25252D;
+    color: #FFF4E8;
+}
+
+/* 首頁 */
+.hero {
+    min-height: 50vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    padding: 30px;
+
+    background:
+        radial-gradient(
+            circle at 20% 20%,
+            rgba(180, 150, 210, 0.12),
+            transparent 40%
+        ),
+        linear-gradient(
+            135deg,
+            #202126,
+            #34343D,
+            #25252D
+        );
+}
+
+/* 文字內容 */
+.content {
+    max-width: 800px;
+}
+
+/* 英文小標題 */
+.welcome {
+    font-family: 'Baloo 2', cursive;
+    font-size: 16px;
+    letter-spacing: 4px;
+    color: #D9BDEB;
+    margin-bottom: 20px;
+}
+
+/* 中文主標題 */
+h1 {
+    font-size: clamp(36px, 6vw, 48px);
+    font-weight: 800;
+    color: #FFF4E8;
+    margin-bottom: 8px;
+}
+
+/* 英文副標題 */
+h2 {
+    font-family: 'Baloo 2', cursive;
+    font-size: clamp(23px, 4vw, 34px);
+    font-weight: 500;
+    color: #E8D9F5;
+    margin-bottom: 10px;
+}
+
+/* 中間裝飾線 */
+.line {
+    width: 60px;
+    height: 2px;
+    background: #BFA4D5;
+    margin: 0 auto 20px;
+    border-radius: 10px;
+}
+
+/* 中文介紹 */
+.description {
+    font-size: 16px;
+    color: #D8D1DC;
+    margin-bottom: 8px;
+}
+
+/* 英文介紹 */
+.english-description {
+    font-family: 'Baloo 2', cursive;
+    font-size: 16px;
+    color: #D9BDEB;
+    line-height: 3;
+}
+
+h3 {
+    color: #E8D9F5;
+    font-size: 30px;
+    margin-bottom: 2px;
+    line-height: 3;
+}
+
+.scp {
+    margin-top: 2px;
+    text-align: center;
+}
+
+.scp h4 {
+    font-family: 'Baloo 2', cursive;
+    color: #b485cf;
+    font-size: 35px;
+    line-height: 1;
+    margin-bottom: 2px;
+}
+
+.scp p {
+    color: #D8D1DC;
+    font-size: 15px;
+    line-height: 2;
+    margin-bottom: 3px;
+}
+
+/* 影片區域 */
+.video-section {
+    width: 100%;
+    max-width: 700px;
+    margin: 35px auto 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.video-section video {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    border-radius: 18px;
+    border: 1px solid rgba(232, 217, 245, 0.2);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+
+.ari {
+    margin-top: 45px;
+    text-align: center;
+}
+
+.ari h5 {
+    color: #E8D9F5;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.ari p {
+    color: #D8D1DC;
+    font-size: 15px;
+    line-height: 2;
+    margin-bottom: 8px;
+}
+
+/* 影片區域 */
+.video-section {
+    width: 100%;
+    max-width: 700px;
+    margin: 35px auto 0;
+    display: flex;
+    justify-content: center;
+}
+
+.video-section video {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    border-radius: 18px;
+    border: 1px solid rgba(232, 217, 245, 0.2);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+
+/* 手機版 */
+@media (max-width: 600px) {
+
+    .welcome {
+        font-size: 12px;
+        letter-spacing: 3px;
+    }
+
+    .description,
+    .english-description {
+        font-size: 14px;
+    }
+
+}
