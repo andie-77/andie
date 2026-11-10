@@ -90,7 +90,7 @@ h2 {
     font-family: 'Baloo 2', cursive;
     font-size: 16px;
     color: #D9BDEB;
-    line-height: 3;
+    line-height: 2;
 }
 
 h3 {
@@ -177,6 +177,79 @@ h3 {
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
 }
 
+
+.drone {
+    margin-top: 45px;
+    text-align: center;
+}
+
+.drone h6 {
+    color: #E8D9F5;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.drone p {
+    color: #D8D1DC;
+    font-size: 15px;
+    line-height: 2;
+    margin-bottom: 8px;
+}
+
+/* 影片區域 */
+.video-section {
+    width: 100%;
+    max-width: 700px;
+    margin: 35px auto 0;
+    display: flex;
+    justify-content: center;
+}
+
+.video-section video {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    border-radius: 18px;
+    border: 1px solid rgba(232, 217, 245, 0.2);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+
+
+.cdc {
+    margin-top: 45px;
+    text-align: center;
+}
+
+.cdc h7 {
+    color: #E8D9F5;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.cdc p {
+    color: #D8D1DC;
+    font-size: 15px;
+    line-height: 2;
+    margin-bottom: 8px;
+}
+
+/* 影片區域 */
+.video-section {
+    width: 100%;
+    max-width: 700px;
+    margin: 35px auto 0;
+    display: flex;
+    justify-content: center;
+}
+
+.video-section video {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    border-radius: 18px;
+    border: 1px solid rgba(232, 217, 245, 0.2);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
 /* 手機版 */
 @media (max-width: 600px) {
 
